@@ -34,7 +34,6 @@ int main(int argc, char **argv) {
 	printf(stderr, "i = %d: is a known Kaprekar number, but the method returned false\n", i);
     } else {
 	printf(stderr, "i = %d: is known NOT to be a Kaprekar number, but the method returned true\n", i);
-      }
     } else {
       numCorrect++;
     }
